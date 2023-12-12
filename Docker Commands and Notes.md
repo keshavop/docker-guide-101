@@ -24,6 +24,8 @@
 ### Notes
 
 #### dockerfile code explanation
+![Screenshot from 2023-12-12 18-12-27](https://github.com/keshavop/docker-guide-101/assets/71931145/0fba4357-27be-4aea-8631-19d7035a800f)
+
 FROM  ->Base image that you want to use
 
 WORKDIR  ->the dir where you want to use to run the app
