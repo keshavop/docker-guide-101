@@ -38,3 +38,6 @@ EXPOSE  -> the port which you want to expose or run at that port
 
 CMD  -> this run when you want to start container
         For ex```CMD["node","index.js"]```
+
+
+## > Create Volume to persist data in database
