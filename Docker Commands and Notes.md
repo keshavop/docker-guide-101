@@ -29,7 +29,8 @@
 
 FROM  ->Base image that you want to use
 
-WORKDIR  ->the dir where you want to use to run the app
+WORKDIR  ->the dir where you want to use to run
+ the app
 
 COPY ..  -> copy *everything* all the files from your project to container
 
@@ -43,5 +44,12 @@ CMD  -> this run when you want to start container
 
 ## > Create Volume to persist data in database
 ![Screenshot from 2023-12-13 15-26-21](https://github.com/keshavop/docker-guide-101/assets/71931145/3476aa70-62f7-4b80-a309-79f6f484443e)
+
+## > Create Network of caintainer
+![Screenshot from 2023-12-13 15-51-58](https://github.com/keshavop/docker-guide-101/assets/71931145/64e55d37-14d9-4204-8ed9-5ee7d7d12de4)
+
+## > *Multi Stage Builds* 
+- i.e. creating different environment fot build and production.
+![image](https://github.com/keshavop/docker-guide-101/assets/71931145/bf248564-ab98-4852-a8fb-f2be0af5ac7c)
 
 
