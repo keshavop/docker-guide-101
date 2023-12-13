@@ -26,6 +26,7 @@
 #### dockerfile code explanation
 ![Screenshot from 2023-12-12 18-12-27](https://github.com/keshavop/docker-guide-101/assets/71931145/0fba4357-27be-4aea-8631-19d7035a800f)
 
+
 FROM  ->Base image that you want to use
 
 WORKDIR  ->the dir where you want to use to run the app
@@ -41,3 +42,6 @@ CMD  -> this run when you want to start container
 
 
 ## > Create Volume to persist data in database
+![Screenshot from 2023-12-13 15-26-21](https://github.com/keshavop/docker-guide-101/assets/71931145/3476aa70-62f7-4b80-a309-79f6f484443e)
+
+
